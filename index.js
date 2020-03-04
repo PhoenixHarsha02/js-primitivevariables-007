@@ -104,7 +104,7 @@ console.log(Number("a"));
 //checks whether the value is a number and also converts certain values into numbers
 //output: null
 console.log(isNaN(a));
-//checks whether the value is a number or Not
+//checks whether the value is a number or Not and does auto parse in string
 //output: true
 console.log(parseFloat("2.345"));
 //converts string to float Values
@@ -115,7 +115,7 @@ console.log(parseInt("2.3"));
 console.log(String(true));
 //converts other data type to string
 //output:"true"
-console.log(Boolean(""));
+console.log(Boolean());
 //displays 0 or 1 if the value is present
 //output:false;
 
