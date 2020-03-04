@@ -67,3 +67,65 @@ console.log(x.toExponential());
 console.log(x.toString());
 //converts the numerical value into String and can convert to octal,decimal and binary formats
 //output:5.245
+
+//--------------------------------------------------------------------------------------------------------
+//Global Methods
+
+//Console-info,warn,error,log,table
+console.info("Hello Hi");
+//sends an information message to the console but does not print into
+//output:Hello hi
+console.warn("Stop");
+//used to display a warning statement in yellow color with a caution cone symbol
+//output:Stop
+console.error("Close");
+//Used to display error statement in red with a cross.
+//output:Close
+console.log("A");
+//prints and displays the value 
+//output:A
+console.table(["a"],["b"]);
+//displays the value in table format in the console
+//output:0 a 1 b
+
+//console.log(alert("Ignore this"));
+//displays an alert popup after every second
+//output: popup with message Ignore this and Ok button
+
+//console.log(prompt("Stop"));
+//displays a popup with the given message along with a text box and OK button
+//output: popup with message Stop, a text box and OK button.
+
+//console.log(confirm("Alright"));
+//displays a popup with the message with ok and cancel button
+//output:popup with message Alright,ok and cancel button
+
+console.log(Number("a"));
+//checks whether the value is a number and also converts certain values into numbers
+//output: null
+console.log(isNaN(a));
+//checks whether the value is a number or Not
+//output: true
+console.log(parseFloat("2.345"));
+//converts string to float Values
+//output:2.345
+console.log(parseInt("2.3"));
+//converts string to int Values
+//output:2
+console.log(String(true));
+//converts other data type to string
+//output:"true"
+console.log(Boolean(""));
+//displays 0 or 1 if the value is present
+//output:false;
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------
+
+
