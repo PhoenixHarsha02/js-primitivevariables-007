@@ -53,3 +53,17 @@ console.log(a.toLowerCase());
 console.log(c.trim());
 //trims the string from extra spaces
 //output:a b
+
+//-----------------------------------------------------------------------
+//Number Methods
+var x=5.245;
+var y=7.222223;
+console.log(x.toFixed(2));
+//removes the decimal values into a whole value
+//output:5
+console.log(x.toExponential());
+//changes the value into exponential from
+//output:5.245e+0
+console.log(x.toString());
+//converts the numerical value into String and can convert to octal,decimal and binary formats
+//output:5.245
